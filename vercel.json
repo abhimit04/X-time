@@ -7,7 +7,7 @@
   "crons": [
     {
       "path": "/api/tweet-summary",
-      "schedule": "0 */4 * * *"
+      "schedule": "0 0 * * *"
     }
   ],
   "env": {
@@ -19,3 +19,4 @@
     "RECIPIENT_EMAIL": "@recipient_email"
   }
 }
+
